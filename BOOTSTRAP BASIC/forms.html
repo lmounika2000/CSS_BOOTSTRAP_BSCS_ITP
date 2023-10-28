@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+    <!--Forms-->
+    <form>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Password</label>
+          <input type="password" class="form-control" id="exampleInputPassword1">
+        </div>
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+          <label for="disabledRange" class="form-label">Disabled range</label>
+<input type="range" class="form-range" id="disabledRange" disabled>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    <!--Form-->
+    <div class="container">
+        <div class="text-center">
+          <h2>Get in touch</h2>
+          <p class="lead">Questions? Do not hesitate to contact us.</p>
+        </div>
+        <div class="row justify-content-center my-5">
+          <div class="col-lg-6">
+            <form action="">
+              <label for="email" class="form-label">Email:</label>
+              <input
+                type="email"
+                id="email"
+                placeholder="my@email.com"
+                class="form-control"
+              />
+              <div class="form-floating my-5">
+                <input
+                  type="name"
+                  id="name"
+                  placeholder="e.g. Dawid"
+                  class="form-control"
+                />
+                <label for="name" class="form-label">Name:</label>
+              </div>
+              <label for="subject" class="form=label">Subject</label>
+              <select name="subject" id="subject" class="form-select">
+                <option value="pricing">Pricing</option>
+                <option value="technical" selected>Technical question</option>
+                <option value="other">Other</option>
+              </select>
+  
+              <div class="form-floating my-5">
+                <textarea
+                  name="query"
+                  id="query"
+                  style="height: 150px"
+                  class="form-control"
+                  placeholder="Write a message"
+                ></textarea>
+  
+                <label for="query">Write a message</label>
+              </div>
+  
+              <div class="text-center">
+                <button type="submit" class="btn btn-primary">Send!</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+  
+</body>
+</html>
